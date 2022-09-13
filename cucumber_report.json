@@ -1,0 +1,304 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-action;login-with-different-user-type-credential",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Login with different user type credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2045923500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the demo-dev url",
+            "match": {
+              "location": "step-definitions\\Login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2694408199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter the emailaddress \"developer@skunexus.com\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82994700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter the password \"ChangeMe2021!\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30883099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Click on the login button",
+            "match": {
+              "location": "step-definitions\\Login.step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68309300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "It should redirect to the dashboard \"Systemadmin\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1451386299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 280041899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;login-with-different-user-type-credential",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Login with different user type credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1173365400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the demo-dev url",
+            "match": {
+              "location": "step-definitions\\Login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2651164399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter the emailaddress \"aswini+user1@skunexus.com\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246150499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter the password \"Test@123\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38162699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Click on the login button",
+            "match": {
+              "location": "step-definitions\\Login.step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78378199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "It should redirect to the dashboard \"Regularuser\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1549733200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195929499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-action;login-with-different-user-type-credential",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Login with different user type credential",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1374467400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Launch the demo-dev url",
+            "match": {
+              "location": "step-definitions\\Login.step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3286859200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter the emailaddress \"aswini+vendoruser1@skunexus.com\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140470700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Enter the password \"Test@123\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40085900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Click on the login button",
+            "match": {
+              "location": "step-definitions\\Login.step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95290700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "It should redirect to the dashboard \"Vendoruser\"",
+            "match": {
+              "location": "step-definitions\\Login.step.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1602531599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170884000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-action",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login action",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
